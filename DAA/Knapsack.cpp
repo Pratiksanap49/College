@@ -25,10 +25,6 @@ void sortratio(Item items[], int numberOfItems) {
         swap(items[i], items[min_idx]);
     }
 
-    for (int i = 0; i < numberOfItems; i++) {
-        cout << items[i].ratio << " ";
-    }
-    cout << endl;
 }
 
 float calculatemaxprofit(Item items[], int numberOfItems, int capacity) {
@@ -50,7 +46,7 @@ float calculatemaxprofit(Item items[], int numberOfItems, int capacity) {
 }
 
 int main() {
-    cout << "hii" << endl;
+    // cout << "hiii" << endl;
     int capacity;
     int numberOfItems;
     cout << "Number of items : ";
