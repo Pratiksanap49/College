@@ -3,6 +3,9 @@
 *.out
 *.o
 *.obj
+*.sh
+
+
 
 # Ignore VS Code settings (optional but useful)
 .vscode/
