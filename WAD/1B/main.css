@@ -1,0 +1,64 @@
+/* Page background */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #ffffff, #c5e2ff);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Form container */
+#s {
+  background: #ffffff;
+  padding: 30px 40px;
+  border-radius: 10px;
+  width: 320px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading */
+#s h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input fields */
+#s input[type="text"],
+#s input[type="email"],
+#s input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  font-size: 14px;
+}
+
+/* Input focus effect */
+#s input:focus {
+  border-color: #667eea;
+}
+
+/* Button */
+#s button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+/* Button hover */
+#s button:hover {
+  background: #5a67d8;
+}

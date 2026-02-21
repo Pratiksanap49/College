@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Registration</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>User Registration</h2>
+
+    <form id="regForm">
+        <label>Name</label>
+        <input type="text" id="name" required>
+
+        <label>Email</label>
+        <input type="email" id="email" required>
+
+        <label>Password</label>
+        <input type="password" id="password" required>
+
+        <button type="submit">Register</button>
+    </form>
+
+    <button class="reset-btn" onclick="resetUsers()">Reset Users</button>
+</div>
+
+<script src="script.js"></script>
+
+<script>
+function resetUsers() {
+    if (confirm("Are you sure you want to delete all users?")) {
+        localStorage.removeItem("users");
+        location.reload();
+    }
+}
+</script>
+
+</body>
+</html>

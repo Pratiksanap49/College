@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>E-Commerce Admin Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="1a2.css">
+</head>
+<body>
+
+<div class="d-flex">
+
+    <!-- Sidebar -->
+    <div class="side-menu">
+        <div class="brand-name">
+            <h4>ShopAdmin</h4>
+        </div>
+        <ul>
+            <li>Dashboard</li>
+            <li>Orders</li>
+            <li>Products</li>
+            <li>Customers</li>
+            <li>Payments</li>
+            <li>Reports</li>
+            <li>Settings</li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container-fluid main-content">
+
+        <!-- Header -->
+        <div class="header mb-4">
+            <h2>E-Commerce Admin Dashboard</h2>
+        </div>
+
+        <!-- Statistics Cards -->
+        <div class="row g-4 mb-4">
+
+            <div class="col-md-3 col-sm-6">
+                <div class="card text-center p-3 shadow-sm">
+                    <h4>1,250</h4>
+                    <p class="mb-0">Total Orders</p>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="card text-center p-3 shadow-sm">
+                    <h4>850</h4>
+                    <p class="mb-0">Products</p>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="card text-center p-3 shadow-sm">
+                    <h4>540</h4>
+                    <p class="mb-0">Customers</p>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="card text-center p-3 shadow-sm">
+                    <h4>$18,400</h4>
+                    <p class="mb-0">Revenue</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Tables Section -->
+        <div class="row g-4">
+
+            <!-- Recent Orders -->
+            <div class="col-md-8">
+                <div class="activity p-3">
+                    <h4>Recent Orders</h4>
+                    <div class="table-responsive">
+                        <table class="table table-striped mt-3">
+                            <thead>
+                                <tr>
+                                    <th>Order ID</th>
+                                    <th>Customer</th>
+                                    <th>Amount</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>#1001</td>
+                                    <td>Rohan</td>
+                                    <td>$120</td>
+                                    <td><span class="badge bg-success">Delivered</span></td>
+                                </tr>
+                                <tr>
+                                    <td>#1002</td>
+                                    <td>Anjali</td>
+                                    <td>$75</td>
+                                    <td><span class="badge bg-warning text-dark">Pending</span></td>
+                                </tr>
+                                <tr>
+                                    <td>#1003</td>
+                                    <td>Vikas</td>
+                                    <td>$210</td>
+                                    <td><span class="badge bg-primary">Shipped</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- New Customers -->
+            <div class="col-md-4">
+                <div class="content-2 p-3">
+                    <h4>New Customers</h4>
+                    <div class="table-responsive">
+                        <table class="table table-bordered mt-3">
+                            <tr>
+                                <th>Name</th>
+                                <th>Email</th>
+                            </tr>
+                            <tr>
+                                <td>Priya</td>
+                                <td>priya@email.com</td>
+                            </tr>
+                            <tr>
+                                <td>Aman</td>
+                                <td>aman@email.com</td>
+                            </tr>
+                            <tr>
+                                <td>Sneha</td>
+                                <td>sneha@email.com</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

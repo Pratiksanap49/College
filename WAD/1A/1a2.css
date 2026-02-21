@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f6f9;
+}
+
+/* Sidebar */
+.side-menu {
+    width: 220px;
+    min-height: 100vh;
+    background-color: #1f2937;
+    color: white;
+}
+
+.brand-name {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #374151;
+}
+
+.side-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.side-menu ul li {
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.side-menu ul li:hover {
+    background-color: #374151;
+}
+
+/* Main Content */
+.main-content {
+    padding: 25px;
+}
+
+/* Header */
+.header {
+    background: white;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Cards */
+.card {
+    border-radius: 8px;
+}
+
+/* Content Boxes */
+.activity,
+.content-2 {
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .side-menu {
+        width: 180px;
+    }
+}
